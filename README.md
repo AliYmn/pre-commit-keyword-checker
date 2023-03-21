@@ -6,7 +6,7 @@ A pre-commit hook for checking specified keywords in the files being committed. 
 
 1. Install the pre-commit package if you haven't already:
    
-    pip install pre-commit
+         pip install pre-commit
 
 2. Add the following content to your project's `.pre-commit-config.yaml` file, replacing `yourusername` with your GitHub username:
 
