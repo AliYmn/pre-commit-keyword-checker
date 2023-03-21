@@ -8,5 +8,7 @@ setup(
     author_email="aliymn.db@gmail.com",
     packages=find_packages(),
     install_requires=["pre-commit"],
-    entry_points={"console_scripts": ["check_keywords = check_keywords:main"]},
+    entry_points={
+        "console_scripts": ["check-keywords = check_keywords.main:main"],
+    },
 )
