@@ -8,11 +8,12 @@ import re
 def main():
     parser = argparse.ArgumentParser(
         description="Check keywords in the files being committed")
-    parser.add_argument("--exclude", type=str, help="File pattern to exclude")
+    parser.add_argument("--exclude", type=str,
+                        help="File pattern to exclude", required=False)
     parser.add_argument("--keywords", nargs="+",
-                        help="Keywords to search for in the files")
+                        help="Keywords to search for in the files", required=False)
     parser.add_argument("--exclude-files", nargs="+",
-                        help="List of files to exclude from the keyword check")
+                        help="List of files to exclude from the keyword check", required=False)
     args = parser.parse_args()
 
     exclude_pattern = args.exclude if args.exclude else []
