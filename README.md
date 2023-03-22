@@ -38,9 +38,9 @@ You can also run the pre-commit hook manually:
 And you're good to go! 🚀
 # Configuration
 
-  --keywords: A list of keywords to search for in the files being committed. If this argument is not provided or left empty, the script will exit without checking the files.
+  `--keywords:` A list of keywords to search for in the files being committed. If this argument is not provided or left empty, the script will exit without checking the files.
 
- --exclude-files: A list of files to exclude from the keyword check.
+ `--exclude-files:` A list of files to exclude from the keyword check.
 
 
 
