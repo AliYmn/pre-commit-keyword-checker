@@ -10,7 +10,7 @@ else:
 
 setup(
     name="pre-commit-keyword-checker",
-    version="1.2.0",
+    version="1.3.0",
     license="MIT",
     long_description_content_type="text/markdown",
     long_description=README,
