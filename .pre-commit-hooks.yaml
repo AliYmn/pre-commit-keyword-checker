@@ -1,6 +1,6 @@
 - id: check-keywords
   name: Check keywords in the files being committed
-  entry: ./check_keywords/check_keywords.py
+  entry: check_keywords.check_keywords:main
   language: python
   always_run: true
   pass_filenames: false

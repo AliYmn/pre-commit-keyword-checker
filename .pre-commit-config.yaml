@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/AliYmn/pre-commit-keyword-checker
-    rev: v1.1.0
+    rev: b3f72ac9c7f734a423dcf83cabf117c59a5f7918
     hooks:
       - id: check-keywords
         args: ["--keywords", "--exclude-files"]
