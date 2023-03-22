@@ -15,11 +15,8 @@ def main():
                         help="List of files to exclude from the keyword check")
     args = parser.parse_args()
 
-    if not args.keywords:
-        sys.exit(0)
-
-    exclude_pattern = args.exclude
-    keywords = args.keywords
+    exclude_pattern = args.exclude if args.exclude else []
+    keywords = args.keywords if args.keywords else []
     exclude_files_list = args.exclude_files if args.exclude_files else []
 
     modified_files = os.popen(
