@@ -10,7 +10,7 @@ else:
 
 setup(
     name="pre-commit-keyword-checker",
-    version="1.3.0",
+    version="1.4.0",
     license="MIT",
     long_description_content_type="text/markdown",
     long_description=README,
@@ -21,6 +21,6 @@ setup(
     packages=find_packages(),
     install_requires=["pre-commit"],
     entry_points={
-        "console_scripts": ["check-keywords = check_keywords.main:main"],
+        "console_scripts": ["check-keywords = check_keywords.check_keywords:main"],
     },
 )
